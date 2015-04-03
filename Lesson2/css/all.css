@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	color: #000;
+	min-width: 800px;
+	background-color: #fff;
+	font: 12px/16px arial, helvetica, sans-serif;
+}
+/* General reset */
+form, fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+img {border-style: none;}
+input, select, textarea {
+	vertical-align: middle;
+	font: 100% arial, helvetica, sans-serif;
+}
+a {
+	color: #f00;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+/* General settings */
+#wrapper {
+	width: 700px;
+	margin: 0 auto;
+}
+
+#header {
+    background-color: #2ca009;
+    padding: 37px 37px 34px;
+}
+.logo {
+    margin: 0;
+    width: 106px;
+    height: 79px;
+    background: url("../img/logo.png") no-repeat;
+}
+.logo a {
+    display: block;
+    height: 100%;
+    text-indent: -100px;
+    overflow:hidden;
+}
+
+.main {
+    background: url(../img/bg_sidebar.png) repeat-y;
+    overflow: hidden;
+}
+
+
+.sidebar {
+    width: 150px;
+    float: left;
+    padding: 33px 0px 33px 23px;  
+
+}
+
+.sidebar .nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 0 0 38px;
+  
+    
+    
+}
+.nav li a {
+    color: #001cc4;
+    font-size:  15px;
+    line-height: 30px;
+}
+
+.nav li a.active, .nav li a:hover, .nav_footer li a.active, .nav_footer li a:hover {
+      text-decoration: underline;
+}
+.content {
+  
+    width: 423px;
+    float: left;
+    padding-left: 50px;
+    padding-right: 54px;
+    padding-top: 22px;
+}
+
+
+h2 {
+    margin: 0 0 44px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #999999;
+    
+}
+
+.content p {
+    margin: 0 0 20px;
+}
+
+.footer {
+    background: url(../img/bg_footer.png) repeat-x;
+/*    overflow: hidden;*/
+}
+.nav_footer {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+
+}
+
+.nav_footer li {
+    display: inline-block;
+    font-size: 12px;
+    padding: 26px 5px 34px;
+    
+}
+.nav_footer li a {
+    color: black;
+
+}
+
+.content p a {
+    color: #000;
+    text-decoration: underline;
+    color: #000;
+}
+.content p a:hover {
+    text-decoration: none;
+}
