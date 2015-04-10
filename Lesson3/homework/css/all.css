@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    min-width: 770px;
     color: #333;
+    min-width: 770px;
+    background: #fff;
     font: 10px/12px verdana, geneva, sans-serif;
 }
 /* General reset */
@@ -37,68 +38,56 @@ a:hover {
 #wrapper {
     width: 770px;
     margin: 0 auto;
-    background: url(../img/bg-wrapper.png) repeat-y;
 }
 
 #header {
     background: url(../img/bg-header.png) no-repeat;
-    padding: 5px 23px 41px 0;
     width: 747px;
     overflow: hidden;
+    padding: 8px 23px 0 0;
 }
 
-.nav-header,
-.nav-icon {
-    list-style: none;
+.nav-header {
     margin: 0;
-    padding: 0;
+    padding: 0 0 166px 0;
+    list-style: none;
     float: right;
 }
 
 .nav-header li {
     margin: 0;
-    padding: 0 0 0 42px;
+    padding: 0 0 0 41px;
     float: left;
 }
 
 .nav-header li a {
-    font-size: 10px;
-    line-height: 12px;
+    color: #333;
     font-weight: bold;
-    color: #036;
 }
 
-h1 {
-    margin: 0;
-    padding: 0;
+.nav-header li a:hover,
+.nav-header li a.active {
+    color: #393;
+    text-decoration: underline;
 }
 
-.logo {
-    display: block;
-    margin-top: 74px;
-    text-align: right;
-    font-size: 36px;
-    line-height: 38px;
-    color: white;
-    font-weight: normal;
-}
-
-.logo:hover {
-    text-decoration: none;
+.sprites-holder {
+    width: 100%;
+    overflow: hidden;
 }
 
 .nav-icon {
-    margin: 65px 130px 0 0;
+    margin: 0;
     padding: 0;
-    /*    margin-bottom: 42px;*/
-    
+    list-style: none;
     float: right;
 }
 
 .nav-icon li {
     margin: 0;
-    padding: 0 0 0 27px;
+    padding: 0;
     float: left;
+    padding-left: 27px;
 }
 
 .nav-icon li a {
@@ -142,103 +131,110 @@ h1 {
     background-position: -36px -11px;
 }
 
-.main {
-    padding-top: 15px;
+#main {
+    padding: 13px 0 0 0;
     overflow: hidden;
     width: 100%;
 }
 
 .sidebar {
-    padding-top: 0px;
     width: 218px;
     float: left;
 }
 
-.sidebar-nav {
+.nav-sidebar {
+    margin: 0;
+    padding: 0 0 102px 25px;
     list-style: none;
-    margin: 13px 0 115px 0;
-    padding: 0;
 }
 
-.sidebar-nav li {
-    margin: 0 0 2px 0;
-    padding: 0 0 0 23px;
-    background: url(../img/bg-menu.png) repeat-y;
+.nav-sidebar li {
+    margin: 0;
+    padding: 6px 0 7px 23px;
+    background: url(../img/sprites-sidebar-black.png) no-repeat 0 50%;
 }
 
-.sidebar-nav li a {
-    font-size: 12px;
-    line-height: 23px;
+.nav-sidebar li:hover {
+    background: url(../img/sprites-sidebar-green.png) no-repeat 0 50%;
+}
+
+.nav-sidebar li a {
+    color: #333;
+    font-size: 11px;
+    line-height: 13px;
     font-weight: bold;
-    color: #fff;
 }
 
-.sidebar-nav li a.active,
-.sidebar-nav li a:hover {
-    color: #036;
+.nav-sidebar li a:hover,
+.nav-sidebar li a.active {
+    color: #393;
     text-decoration: underline;
 }
 
-.sidebar-section {
-    padding: 0 41px 0 25px;
-}
-
-h2 {
+.img-links {
     margin: 0;
     padding: 0;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
-    color: white;
+    list-style: none;
 }
 
-p {
-    margin: 12px 0 0 0;
-    padding: 0;
-    text-align: justify;
+li a img {
+    width: 139px;
+    height: 100px;
 }
 
 .content {
+    padding-top: 5px;
+    width: 529px;
     float: left;
-    width: 530px;
-    /*    padding-right: 23px;*/
+    padding-right: 23px;
+}
+
+.content-section img {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    height: 246px;
+    margin-right: 33px;
 }
 
 .content-section {
-    margin: 3px 0 0 0;
+    float: left;
     overflow: hidden;
+    margin-bottom: 16px;
 }
 
 .content-section h2 {
-    margin: 0;
     padding: 0;
-    color: #69c;
+    margin: 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #393;
+    margin-bottom: 12px;
 }
 
 .content-section p {
-    margin: 12px 0 0 0;
     padding: 0;
-    font-size: 10px;
-    line-height: 12px;
-    color: #333;
+    margin-bottom: 12px;
 }
 
 .content-section a {
     float: right;
-    color: #69c;
+    color: #393;
     font-weight: bold;
-    margin: 13px 0 0 0;
-}
-
-.content-section a:hover {
+    margin-top: 4px;
     text-decoration: underline;
 }
 
-.footer {
-    font-family: tahoma, verdana, sans-serif;
-    background: url(../img/bg-footer.png) no-repeat;
+.content-section a:hover {
+    text-decoration: none;
+}
+
+#footer {
+    font-family: tahoma, geneva, sans-serif;
     width: 747px;
-    text-align: right;
-    padding: 34px 23px 6px 0;
     color: white;
+    background-color: #000;
+    text-align: right;
+    padding: 6px 23px 7px 0;
 }
