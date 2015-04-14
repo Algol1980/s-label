@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    color: #333;
+    background: #fff;
+    font: 10px/12px verdana, geneva, sans-serif;
+}
+/* General reset */
+
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+img {
+    border-style: none;
+}
+
+input,
+select,
+textarea {
+    vertical-align: middle;
+    font: 100% arial, helvetica, sans-serif;
+}
+
+a {
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 13px 0;
+    color: #669;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 12px 0;
+}
+/* General settings */
+
+#wrapper {
+    width: 770px;
+    margin: 0 auto;
+}
+
+#header {
+    background: url(../img/bg-header.png) no-repeat;
+    padding: 5px 0px 0 0;
+}
+
+.sprites-holder {
+    width: 744px;
+    margin: 0 25px 138px 0;
+}
+
+.nav-icon {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+}
+
+.nav-icon li {
+    margin: 0;
+    padding: 0 0 0 27px;
+    float: left;
+}
+
+.nav-icon li a {
+    display: block;
+    height: 11px;
+    width: 11px;
+    background: url(../img/sprites.png) no-repeat;
+}
+
+.nav-icon li a.cart {
+    width: 14px;
+    background-position: 0 0;
+}
+
+.nav-icon li a.mail {
+    background-position: -14px 0;
+}
+
+.nav-icon li a.home {
+    background-position: -25px 0;
+}
+
+.nav-icon li a.search {
+    background-position: -36px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-bottom: 7px;
+    margin-left: 185px;
+}
+
+.logo {
+    height: 100%;
+    display: block;
+    background: url(../img/logo.png);
+    width: 238px;
+    height: 49px;
+}
+
+.nav-container {
+    background: url(../img/nav-bg.png) repeat-x;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+}
+
+.nav-container .empty {
+    background: url(../img/nav-triangle-left.png) no-repeat;
+    float: left;
+    width: 13px;
+    height: 26px;
+}
+
+.nav-header {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: url(../img/nav-triangle-right.png) no-repeat;
+    padding-left: 13px;
+    float: right;
+}
+
+.nav-header li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.nav-header li a {
+    display: block;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.nav-header li a .n-left {
+    background: url(../img/nav-triangle-left.png) no-repeat;
+    width: 13px;
+    height: 26px;
+    float: left;
+}
+
+.nav-header li a .n-center {
+    padding: 0 3px 0 4px;
+}
+
+.nav-header li a .n-right {
+    background: url(../img/nav-triangle-right.png) no-repeat;
+    width: 13px;
+    height: 26px;
+    float: right;
+}
+
+.main {
+    width: 100%;
+}
+
+.section-middle {
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/bg-main.png);
+    border-bottom: 1px solid #2d2c83;
+}
+
+.menu {
+    background: url(../img/rectangle.png) no-repeat;
+    list-style: none;
+    margin: 0;
+    padding: 19px 75px 20px 25px;
+    float: left;
+}
+
+.menu li {
+    padding-left: 18px;
+    background: url(../img/marker-nav.png) no-repeat 0 50%;
+}
+
+.menu li a {
+    line-height: 18px;
+}
+
+.article {
+    float: left;
+    width: 538px;
+    padding: 14px 20px 0 18px;
+    overflow: hidden;
+}
+
+.section-bottom {
+    background-color: #cfe6fd;
+    background-image: url(../img/side-picture.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.section-bottom .article {
+    padding-left: 273px;
+    width: 482px;
+}
+
+.article a {
+    padding: 0 0 6px 0;
+    color: #669;
+    text-decoration: underline;
+    float: right;
+}
+
+.article a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/footer-center.png);
+}
+
+.footer .left {
+    background: url(../img/footer-left.png) no-repeat;
+    width: 13px;
+    height: 26px;
+    float: left;
+}
+
+.footer .right {
+    background: url(../img/footer-right.png) no-repeat;
+    width: 13px;
+    height: 26px;
+    float: right;
+}
+
+.footer .center {
+    color: #fff;
+    font: 10px/12px tahoma, sans-serif;
+    padding: 7px;
+    float: right;
+}
+
+.article +.article {
+    padding-bottom: 0;
+    padding-top: 0;
+}

@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    color: #000;
+    font: 9px/11px verdana, geneva, sans-serif;
+}
+/* General reset */
+
+form,
+fieldset {
+    margin: 0;
+    padding: 0;
+    border-style: none;
+}
+
+img {
+    border-style: none;
+}
+
+input,
+select,
+textarea {
+    vertical-align: middle;
+    font: 100% arial, helvetica, sans-serif;
+}
+
+a {
+    color: #f00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* General settings */
+
+#wrapper {
+    width: 770px;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+}
+
+.nav-wrapper {
+    padding-top: 25px;
+    overflow: hidden;
+    background: url(../img/line-nav.png) repeat-x 0 100%;
+}
+
+.header-nav {
+    margin: 0;
+    padding: 0 0 5px 0;
+    list-style: none;
+    float: right;
+}
+
+.header-nav li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.header-nav li a {
+    margin-right: 5px;
+    font: 10px/30px tahoma, sans-serif;
+    font-weight: bold;
+    color: #000;
+    overflow: hidden;
+    display: block;
+}
+
+.header-nav li a .left {
+    background: url(../img/rnd-left-grey.png) no-repeat;
+    float: left;
+    width: 6px;
+    height: 30px;
+}
+
+.header-nav li a .center {
+    background: url(../img/bg-gray.png) repeat-x;
+    float: left;
+    padding: 0 11px;
+}
+
+.header-nav li a .right {
+    background: url(../img/rnd-right-gray.png) no-repeat;
+    float: left;
+    width: 6px;
+    height: 30px;
+}
+
+.header-nav li:hover span.left,
+.header-nav li.active span.left {
+    background: url(../img/rnd-left-blue.png) no-repeat;
+}
+
+.header-nav li:hover span.center,
+.header-nav li.active span.center {
+    background: url(../img/bg-blue.png) repeat-x;
+}
+
+.header-nav li:hover span.right,
+.header-nav li.active span.right {
+    background: url(../img/rnd-rifht-blue.png) no-repeat;
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    position: absolute;
+    display: block;
+    width: 208px;
+    height: 243px;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+
+.pictures {
+    margin: 0;
+    padding: 24px 2px 25px 0;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+    background: url(../img/bg-picturea.png) no-repeat;
+}
+
+.pictures li {
+    float: right;
+    padding: 0 6px 0 6px;
+}
+
+.pictures li.last {
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    padding-top: 35px;
+    overflow: hidden;
+}
+
+.col-left {
+    float: left;
+    width: 205px;
+    padding: 22px 5px 0 20px;
+}
